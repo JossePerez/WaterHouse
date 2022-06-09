@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterHouse</title>
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header> 
+        <h1 class="titulo">WaterHouse <span>A la vuelta de tu vida</span></h1>
+    </header>
+<!--Asi se comenta en html-->
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Principal</a>   
+            <a href="quienes_somos.html">Quiénes somos</a>
+            <a href="ayuda.html">Ayuda</a>
+            <a href="usuario.html">iniciar secion</a>   
+        </nav>
+    </div>
+
+    <section>
+        <form class="formulario">
+            <fieldset>
+                <legend>Iniciar secion</legend>
+    
+                <div class="contenedor-campos">
+                    
+                    <div class="campo campo-2">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Correo">
+                    </div>
+                    <div class="campo campo-2">
+                        <label>Contraseña</label>
+                    <input class="input-text" type="password" placeholder="Contraseña">
+    
+                </div>
+            <div class="enviar alinear-derecha flex">
+                <input class="boton w-sm-100 b2" type="submit" value="Aceptar"> 
+            </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <section>
+        <h2>Registrarse</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Informacion del usuario</legend>
+
+                <div class="contenedor-campos">
+                    
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Nombre" />
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Teléfono" />
+                    </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Correo">
+                    </div>
+                    <div class="campo">
+                        <label>Contraseña</label>
+                    <input class="input-text" type="password" placeholder="Contraseña">
+                    </div>
+                    <div class="campo">
+                        <label>Confirmar Contraseña</label>
+                        <input class="input-text" type="password" placeholder="Confirmar Contraseña">
+                    </div>
+                    <div class="campo">
+                        <label>Descripcion</label>
+                        <textarea class="input-text texto"></textarea>
+                    </div>
+
+                </div>
+            <div class="enviar alinear-derecha flex">
+                <input class="boton w-sm-100" type="submit" value="Aceptar"> 
+             </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. WaterHouse</p>
+    </footer>
+</body>
+</html>
